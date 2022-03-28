@@ -38,4 +38,4 @@ class searchImage(View):
 def search(request):
     searchData = request.POST['search']
     print(searchData)
-    return render(request, 'index.html', {'searchData': searchData})
+    return redirect(f'/{searchData}')
