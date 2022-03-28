@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <Strong>{{searchData}} Images</Strong>
+    <div class="row mx-4 my-3">
+    {% for image in images %}
+        <img class='col-md-3 my-2' height="300" src="{{image}}" alt=''>
+    {% endfor %}
+    </div>
+{% endblock %}
