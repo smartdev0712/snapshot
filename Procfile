@@ -1,1 +1,1 @@
-worker python manage.py runserver
+web: gunicorn snapshot.wsgi — log-file -
