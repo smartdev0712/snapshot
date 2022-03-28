@@ -113,7 +113,6 @@ python-slugify==5.0.2
 python3-openid==3.2.0
 pytube==11.0.1
 pytz==2021.3
-pywin32==302
 pywinpty==1.1.6
 PyYAML==6.0
 pyzmq==22.3.0
